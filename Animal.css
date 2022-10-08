@@ -1,0 +1,406 @@
+/*Index Page*/
+.log1{
+    margin: 3rem;
+    
+}
+.log1 span{
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+}
+.serach1{
+    display: flex;
+   margin-left: 25rem;
+   
+ 
+ 
+}
+.search-icon input{
+    display: flex;
+    width: 35rem;
+    height: 3rem;
+  margin-top: -10rem;
+box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+font-size: 1.5rem;
+border-radius: 1rem;
+  
+}
+
+.search-icon button{
+    display: flex;
+    margin-left: 32.4rem;
+    margin-top: -2.8rem;
+    background-color: rgba(0,0,0,0);
+    
+     font-size: 2rem;
+     border: none;
+}
+.con1{
+    float: right;
+    margin-top: -9rem;
+}
+.con1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 520;
+    padding-left: 2rem;
+}
+.nav1{
+    display: flex;
+    margin-left: 14rem;
+    margin-top: -3rem;
+}
+.nav1 li{
+    float: left;
+    list-style: none;
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    padding-bottom: -2rem;
+    padding-top: 1rem;
+}
+.nav1 li:hover{
+    border-top: 3px solid green;
+}
+.nav2{
+    display: none;
+}
+.nav2 li{
+     border-bottom: 1px solid black;
+     width: 14.5rem;
+    display: flex;
+    margin-left: -2.5rem;
+    
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.nav2 li:hover{
+    font-size: 1.4rem;
+    background-color: rgba(0,0,0,0.2);
+    border-color: red;
+    border-top: none;
+}
+.nav1 li:hover .nav2{
+      position: absolute;
+    display: block;
+    z-index: 1;
+    width: 15rem;
+    box-sizing: border-box;
+    background-color:white;
+    
+   box-shadow: 10px 10px 15px rgba(0,0,0,0.4);
+    
+}
+
+.loc{
+    margin-left: 23rem;
+}
+.loc input{
+    font-size: 1rem;
+    
+}
+.path{
+    margin-left: 4rem;
+    margin-top: -10rem;
+}
+
+
+.shape1{
+   border-top: 1rem solid greenyellow;
+   border-right:1rem solid greenyellow;
+   width: 2rem;
+   height: 2rem;
+     
+    
+}
+.shape2{
+    margin-left: 4rem;
+   border-bottom: 1rem solid greenyellow;
+   border-right: 1rem solid greenyellow;
+   border-top: 1rem solid greenyellow;
+   width: 2rem;
+   height: 2rem;
+   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    
+}
+ .shape3{
+   border-bottom: 1rem solid greenyellow;
+   border-right: 1rem solid greenyellow;
+   width: 2rem;
+   height: 2rem;
+     
+}
+.path1{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: white;
+    width: 50rem;
+    height: 25rem;
+    margin-top: 4rem;
+}
+.path1 img{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 5rem;
+}
+.img1{
+    float: right;
+    margin-top: 4rem;
+   
+    margin-top: -25rem;
+    
+}
+.img1 img{
+    width: 60rem;
+    height: 25rem;
+    
+}
+.img-des {
+    display: flex;
+    width: 98vw;
+    height: 20rem;
+    
+    margin-top: 10rem;
+}
+.img-des1 ul{
+    display: flex;
+    text-align: center;
+    margin-right: 6rem;
+    
+}
+.img-des1 marquee{
+    display: flex;
+    width: 90vw;
+    margin-left: 4rem;
+    border-radius: 13rem;
+    background-color:red;
+    
+}
+.img-des1 li{
+    
+    margin-right: 5rem;
+    list-style: none;
+    font-size: 3rem;
+}
+.img-des1 li img:hover{
+    width: 14rem;
+    height:14rem; 
+    
+}
+.img-des1 li img{
+    border-radius: 13rem;
+    width: 13rem;
+    height: 13rem;
+    box-shadow: 10px 15px 15px rgba(0,0,0,0.3);
+}
+.about{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 4rem;
+    width: 90vw;
+    height: 20rem;
+    background: rgba(0,0,0,0.2);
+}
+.about1 h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-meadia1{
+    display: flex;
+    margin-top: 3rem;
+}
+.social-media2{
+    width: 98vw;
+    height: 5rem;
+    background:linear-gradient(125deg,rgba(0,0,0,0.3),lightslategrey);
+    
+     border-radius: 3rem;
+}
+.social-media2 .icons{
+   
+    margin-right: 5rem;
+    color: white;
+    font-size: 4rem;
+    color: #3f729b rgb
+   
+}
+.icons i{
+    margin-top: 0.5rem;
+    margin-left: 15rem;
+}
+
+
+
+/*Add-Animals*/ 
+.Donate-pet{
+    width: 98vw;
+    height: 130vh;
+    background-color: lightgray;
+   
+}
+ .Donate-pet3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(2deg,darkmagenta,darkmagenta);
+    width: 45rem;
+    height: 52rem;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 6rem;
+}
+.Donate-pet3 h1{
+    padding-bottom: 2rem;
+    border-bottom: solid silver;
+    margin-right: 2rem;
+}
+.Donate-pet3 .span1{
+    margin-left: 2rem;
+}
+.Donate-pet3 .span1 span{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+}
+.Donate-pet3 .span1 input{
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-top: 0.6rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+        outline: none;
+}
+.mobile{
+    display: flex;
+    margin-left: 24rem;
+    margin-top: -10.8rem;
+}
+.mobile span{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+}
+.mobile input{
+    width: 20rem;
+    height: 2rem;
+     font-size: 1rem;
+    margin-top: 0.6rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+    outline: none;
+}
+.Animal-Type{
+    display:flex;
+    margin-top: 10rem;
+    
+}
+.Animal-Type span{
+    font-size: 1.5rem;
+    position: absolute;
+    
+    color:white;
+    font-weight: 900;
+    margin-left: 3rem;
+    
+    
+}
+.Animal-Type select{
+    
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    position: absolute;
+    margin-left: 12rem;
+    
+}
+.animal-detail{
+    margin-top: 3rem;
+     width: 45vw;
+    margin-left: 2rem;
+    display:grid;
+     grid-template-columns: auto auto  ;
+}
+.animal-detail span{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 0.2rem;
+    margin-top:0.8rem;
+    display: flex;
+    
+}
+.animal-detail input{
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 10px 15px 15px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+.do-buton button{
+     width: 30rem;;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: blue;
+    font-weight: 900;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+    color: white;
+}
+/*Adoption*/
+  
+  .adop-3{
+      position: absolute;
+   margin-left: 2rem;
+     width: 90rem;
+      background: whitesmoke;
+      display:grid;
+     grid-template-columns: auto auto auto  ;
+     box-shadow: 10px 10px 15px rgba(0,0,0,2);
+  }
+  .adop3{
+     
+      height: 25rem;
+    width: 20rem;
+    background-color:white;
+    border: 1px solid black;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    
+      
+  }.adop3 .bookname span{
+  display: flex;
+  justify-content: center;
+    font-family:algerian, solid black;
+    font-size: 2rem; 
+    font-weight: 1.5rem;
+    
+    text-align: center;
+}
+.adop3{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+.adop3 .buy-button a{
+    display: flex;
+   margin-left: 16rem;
+   margin-right: 1rem;
+   background-color: greenyellow;
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: black;
+   border: 2px solid black;
+}
